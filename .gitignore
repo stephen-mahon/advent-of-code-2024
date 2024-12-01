@@ -1,0 +1,45 @@
+# Python bytecode and compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+*.pytest_cache/
+.cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Input files (optional, if you don't want to track Advent of Code inputs in Git)
+inputs/*.txt
+
+# Distribution/build artifacts
+build/
+dist/
+*.egg-info/
+
+# Pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python packages
+*.egg
+*.whl
