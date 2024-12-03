@@ -2,8 +2,8 @@ import re
 from utils.utils import parse_input
 
 def solve():
-    data1 = parse_input("inputs/day03.txt")
-    data2 = parse_input("inputs/day03.txt")
+    data1 = parse_input("test_inputs/day03_1.txt")
+    data2 = parse_input("test_inputs/day03_2.txt")
     return (part1(str(data1)), part2(str(data2)))
 
 
