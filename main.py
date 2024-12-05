@@ -1,4 +1,4 @@
-from solutions.day04 import solve as solve_day04
+from solutions.day05 import solve as solve_day05
 
 if __name__ == "__main__":
-    print(solve_day04())
+    print(solve_day05())
